@@ -44,7 +44,7 @@ class ParkingGarage:
                     self.current_ticket["paid"] = True
                     self.tickets[0] += 1
                     self.parking_spaces[0] += 1
-                    print("Thank you again and have a good day.")
+                    print("Thank you again, and have a good day.")
 
 
 parking1 = ParkingGarage()
